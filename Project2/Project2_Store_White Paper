@@ -1,0 +1,25 @@
+1. The whole program mainly uses the ArrayList collection, and the ArrayList is added, deleted, checked and modified.
+It's Calling parameters of different classes to increase or decrease data by multi-threading
+Globally, the multithreading we use is addGoods();
+                     delGoodsList()
+
+                     showGoods();
+                     buyGoods();
+
+                     showShopCar();
+                     delStoreCar();
+
+                     totalPrice()
+                     GetRating();
+
+At present, although the product information can be added and saved, how to solve the problem of saving the shopping information in a textile after we checkout. (or print it out as javaFX)
+It can display the number of purchased items, the total price, the courier number, and the time of purchase.
+When a customer makes an order, the clerk should process it.  If there is a problem, the manager should be called
+
+We manually add the product's name, size, color, and price into the arraylist through addGoods(). Can be added or deleted.
+
+
+Then showGoods(); show the goods of the goods website.
+
+After packaging the goods, customers start to open the mall to shop. showGoods();
+
